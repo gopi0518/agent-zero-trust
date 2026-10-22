@@ -1,6 +1,6 @@
 # Securing AI Agents in Snowflake
 
-Companion code for the article [Your AI Agent's System Prompt Is Not a Security Control](MEDIUM_URL).
+Companion code for the article [Your AI Agent's System Prompt Is Not a Security Control]([MEDIUM_UR](https://medium.com/@dappilig/your-ai-agents-system-prompt-is-not-a-security-control-f60bc8769712?postPublishedType=initial)L).
 
 A prompt that says "never reveal pricing" can be talked around. A masking policy cannot. This repository shows how to keep a Cortex Agent inside its limits using Snowflake's own access controls, so the security holds even when the model is fooled.
 
