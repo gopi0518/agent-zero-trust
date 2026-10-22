@@ -114,7 +114,7 @@ Account usage views can lag by up to a few hours.
 - These controls limit what an agent can reach. They do not stop it from misusing data it is allowed to see.
 - The approval thresholds are examples. Set your own.
 - The agent specification does not yet include the approval procedure as a tool; the tests call it directly. Add it as a custom tool using the current Cortex Agents documentation.
-- The gateway, task tokens, and sidecar from the article are not in this repository. See [VENDOR_NEUTRAL_REPO_URL].
+- The gateway, task tokens, and sidecar from the article are not in this repository. A version that works across platforms is in progress.
 
 ## References
 
