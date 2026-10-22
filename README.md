@@ -19,7 +19,7 @@ Two risks make that unsafe:
 
 AZT applies the zero trust split in NIST SP 800-207, between a policy decision point and a policy enforcement point, to AI agents.
 
-![Every agent request passes an enforcement layer outside the model](docs/architecture.png)
+![Every agent request passes an enforcement layer outside the model](images/architecture.png)
 
 1. **Gateway (decides).** Confirms which agent is running, screens the trigger, and issues a short lived token listing what this one task may do: which models, which data, which actions.
 2. **Sidecar (enforces).** A proxy beside each agent checks every request against the token at three layers:
